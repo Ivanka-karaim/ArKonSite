@@ -1,0 +1,119 @@
+.catalog_lend{
+  margin-top: 35px;
+  margin-bottom: 20px;
+  .block_catalog {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    height: 534px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration-line: none;
+    @media (max-width: 576px) and (min-width: 450px) {
+      padding: 0 10%;
+    }
+    @media (max-width: 768px)and (min-width: 576px) {
+      height: 480px;
+    }
+    @media(max-width: 576px){
+      height: 422px;
+    }
+    &:hover{
+      margin-top:0;
+      .block_text_catalog{
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+    .photo{
+      height:406px;
+      width:100%;
+      border: none;
+      @media(max-width: 768px)and (min-width: 576px){
+        height:340px;
+      }
+      @media(max-width: 576px) {
+        height:80%;
+      }
+
+    }
+    .block_text_catalog{
+      height:212px;
+      width: 83%;
+      margin-top: -20%;
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+      @media(max-width: 768px){
+        height:160px;
+      }
+
+      p{
+        padding: 0 4%;
+      }
+      hr{
+        width:50%;
+        background-color:#1E7DB2;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border: 1px solid #1E7DB2;
+        @media(max-width: 768px){
+          margin-bottom: 10px;
+          border: 0.5px solid #1E7DB2;
+        }
+      }
+      h2{
+        font-size: 26px;
+        color: #000000;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        @media(max-width: 768px){
+          font-size: 20px;
+          padding-top: 15px;
+        }
+      }
+    }
+  }
+.catalog_lending{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  display: flex;
+  height: 534px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration-line: none;
+  @media(max-width: 480px){
+    height:250px;
+    a{
+      height:250px;
+    }
+    .block_text_catalog{
+      @media(max-width: 576px){
+        height:140px;
+      }
+      p{
+          font-size: 10px;
+          line-height: 12px;
+      }
+      h2{
+        font-size: 12px;
+        line-height: 14px;
+        padding-top:10px;
+        padding-bottom: 0;
+      }
+      hr{
+        margin-top:5px;
+        margin-bottom:3px;
+        border: 0.2px solid #1E7DB2
+      }
+    }
+  }
+  @media(max-width: 768px)and (min-width: 480px){
+    height:480px;
+  }
+}
